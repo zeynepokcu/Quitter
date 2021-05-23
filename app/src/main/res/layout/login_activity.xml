@@ -88,7 +88,7 @@
         app:layout_constraintHorizontal_bias="0.785"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/loginButton"
-        app:layout_constraintVertical_bias="0.401" />
+        app:layout_constraintVertical_bias="0.400" />
 
     <TextView
         android:id="@+id/textReset"
@@ -102,7 +102,7 @@
         app:layout_constraintHorizontal_bias="0.187"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/loginButton"
-        app:layout_constraintVertical_bias="0.392"
+        app:layout_constraintVertical_bias="0.400"
         tools:ignore="MissingConstraints" />
 
     <ImageView
