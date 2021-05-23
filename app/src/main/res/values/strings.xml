@@ -4,14 +4,13 @@
     <string name="text_fill">Please enter the values to sign up.</string>
     <string name="prompt_email">E-Mail</string>
     <string name="prompt_password">Password</string>
-    <string name="prompt_amount">Günlük içilen sigara adedi</string>
-    <string name="prompt_time">Bir sigaranın içilme süresi (dakika)</string>
-    <string name="prompt_price">Kullanılan sigaranın paket fiyatı</string>
+    <string name="prompt_amount">Number of cigarettes smoked per day</string>
+    <string name="prompt_time">Smoking time of a cigarette (minute)</string>
+    <string name="prompt_price">Price of one package</string>
     <string name="action_log_in">Log In</string>
     <string name="action_sign_up">Sign Up</string>
     <string name="welcome">"Welcome!"</string>
     <string name="login_failed">"Login failed"</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="didSmokeQuestion">Please submit the dates you havent smoked.</string>
     <string name="yes">Yes</string>
     <string name="submit">Submit</string>
