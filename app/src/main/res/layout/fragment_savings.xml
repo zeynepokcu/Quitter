@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SavingsFragment">
+
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80pt"
+        android:text="@string/you_saved"
+        android:textAlignment="center"
+        android:textSize="11pt" />
+
+    <TextView
+        android:id="@+id/txtSavingsBackground"
+        android:background="@drawable/bg_savings"
+        android:layout_width="250dp"
+        android:layout_height="125dp"
+        android:layout_gravity="center"
+        android:layout_margin="10pt" />
+
+    <TextView
+        android:id="@+id/txtShowSavings"
+        android:layout_width="250dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center"
+        android:layout_margin="10pt"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/savings"
+        android:textSize="11pt" />
+
+</FrameLayout>

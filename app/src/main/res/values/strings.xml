@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Quitter</string>
+    <!-- Strings related to login -->
+    <string name="text_fill">Please enter the values to sign up.</string>
+    <string name="prompt_email">E-Mail</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_amount">Günlük içilen sigara adedi</string>
+    <string name="prompt_time">Bir sigaranın içilme süresi (dakika)</string>
+    <string name="prompt_price">Kullanılan sigaranın paket fiyatı</string>
+    <string name="action_log_in">Log In</string>
+    <string name="action_sign_up">Sign Up</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="didSmokeQuestion">Please submit the dates you havent smoked.</string>
+    <string name="yes">Yes</string>
+    <string name="submit">Submit</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="go_to_login_page">Go To Login Page</string>
+    <string name="you_saved">You Saved</string>
+</resources>

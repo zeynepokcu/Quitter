@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        app:cnb_backgroundColor="@color/homeBackground"
+        app:cnb_iconColor="@color/home"
+        app:cnb_textColor="@color/home"/>
+
+    <item
+        android:id="@+id/health"
+        android:title="Health"
+        android:icon="@drawable/ic_health"
+        app:cnb_backgroundColor="@color/healthBackground"
+        app:cnb_iconColor="@color/health"
+        app:cnb_textColor="@color/health"/>
+
+    <item
+        android:id="@+id/time"
+        android:title="Time"
+        android:icon="@drawable/ic_time"
+        app:cnb_backgroundColor="@color/timeBackground"
+        app:cnb_iconColor="@color/time"
+        app:cnb_textColor="@color/time"/>
+
+    <item
+        android:id="@+id/savings"
+        android:title="Savings"
+        android:icon="@drawable/ic_savings"
+        app:cnb_backgroundColor="@color/savingsBackground"
+        app:cnb_iconColor="@color/savings"
+        app:cnb_textColor="@color/savings"/>
+
+</menu>

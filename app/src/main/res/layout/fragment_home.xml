@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.quitter.HomeFragment">
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="520dp"
+        android:background="@drawable/bg_button_submit"
+        android:text="@string/submit"
+        android:textColor="@color/home"
+        android:textFontWeight="100"
+        android:textSize="9pt" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="520dp"
+        android:background="@drawable/bg_button_submit"
+        android:text="Delete"
+        android:textSize="9pt"
+        android:textColor="@color/home"
+        android:textFontWeight="100">
+    </Button>
+
+
+    <TextView
+        android:id="@+id/showDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="430dp"
+        android:text=""
+        android:textSize="9pt" />
+
+    <TextView
+        android:id="@+id/askIfSmoked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="380dp"
+        android:text="@string/didSmokeQuestion"
+        android:textAlignment="center"
+        android:textSize="7.5pt" />
+
+    <LinearLayout
+        android:background="@drawable/bg_calender"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal">
+
+        <CalendarView
+            android:background="@drawable/bg_calender"
+            android:id="@+id/calendarView"
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"
+            android:datePickerMode="spinner">
+        </CalendarView>
+
+    </LinearLayout>
+
+
+</FrameLayout>
